@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp5.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Border Stroke="#C49B33">
+                <GraphicsView x:Name="mygw" WidthRequest="300" HeightRequest="300">
+
+                </GraphicsView>
+            </Border>
+
+            <Button Text="Zoom Plus" Clicked="Button_IncreaseScale"/>
+            <Button Text="Zoom Minus" Clicked="Button_ReduceScale"/>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
